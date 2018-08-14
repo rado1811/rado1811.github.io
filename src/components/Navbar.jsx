@@ -7,6 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink } from 'reactstrap';
+import teleteton from '../img/teleteton_logo.png';
 import FB from '../img/Facebook.svg';
 import insta from '../img/insta.png';
 
@@ -28,7 +29,7 @@ export default class NavbarTT extends React.Component {
     return (
       <div>
         <Navbar color="pink" light expand="md">
-          <NavbarBrand href="/teleteton" style={{ color: '#1b1e3e' }}>Télététon 2018</NavbarBrand>
+          <NavbarBrand href="/teleteton"><img src={teleteton} alt="logo teleteton" style={{ height: '8vh' }}/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

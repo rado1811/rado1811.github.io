@@ -25,7 +25,7 @@ class Events extends Component {
           style={{ margin: '20px' }}
           outline
           color="danger"
-          onClick={() => this.toggleEvents()}>Liste complète</Button>
+          onClick={() => this.toggleEvents()}>Liste complète des manifestations</Button>
         {this.state.showEvents && <EventsList />}
       </div>
     );
