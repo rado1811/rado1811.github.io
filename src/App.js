@@ -14,11 +14,10 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + '/'} component={Affiche} />
           <Route exact path={process.env.PUBLIC_URL + '/teleteton'} component={Affiche} />
-          <Route path={process.env.PUBLIC_URL + '/teleteton/Events'} component={Events} />
-          <Route path={process.env.PUBLIC_URL + '/teleteton/Kesako'} component={Kesako} />
-          <Route path={process.env.PUBLIC_URL + '/teleteton/Support'} component={Support} />
+          <Route path={process.env.PUBLIC_URL + '/Events'} component={Events} />
+          <Route path={process.env.PUBLIC_URL + '/Kesako'} component={Kesako} />
+          <Route path={process.env.PUBLIC_URL + '/Support'} component={Support} />
         </Switch>
         <Footer />
       </div>
