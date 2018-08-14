@@ -20,11 +20,8 @@ const EventCard = (props) => {
               color: '#f2bfac',
               font: 'italic small-caps bold 16px/2' }}>{props.description}</CardTitle>
 
-          <Button
-            style={{
-              color: '#FFFFFF',
-              backgroundColor: '#f2928f' }}
-          ><a href={props.buttonLink}>{props.buttonText}</a></Button>
+          <Button style={{ backgroundColor: '#f2928f' }}>
+            <a href={props.buttonLink} style={{ color: '#FFFFFF' }}>{props.buttonText}</a></Button>
         </CardBody>
         <CardFooter
           style={{
