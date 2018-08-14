@@ -1,0 +1,30 @@
+import React from 'react';
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
+import './slider-animations.css';
+import 'normalize.css/normalize.css';
+import './manifestations.css';
+import events from '../../events.json';
+
+const eventsSlider = () => (
+  <div>
+		<Slider className="slider-wrapper ">
+			{events.map((item, index) => (
+				<div
+					key={index}
+					className="slider-content"
+					style={{ background: `url('${item.image}') no-repeat center center` }}
+				>
+					<div className="inner">
+						<h1>{item.title}</h1>
+            <p>{item.date} - {item.place}</p>
+						<p>{item.description}</p>
+						<button ><a href={item.buttonLink}>{item.buttonText}</a></button>
+					</div>
+				</div>
+			))}
+		</Slider>
+	</div>
+)
+
+export default eventsSlider;

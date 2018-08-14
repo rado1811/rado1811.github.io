@@ -1,0 +1,65 @@
+[
+  {
+  "title": "Concert LEJ",
+  "date": "Samedi 6 octobre",
+  "place": "Rocher de Palmer - Cenon",
+  "description": "Concert du sein réalisé avec notre partenaire le groupe LEJ",
+  "image": "https://france3-regions.francetvinfo.fr/paris-ile-de-france/sites/regions_france3/files/styles/top_big/public/assets/images/2018/06/30/maxnewsspecial218632-3737569.jpg?itok=PXIOe4Le",
+  "buttonText": "Billeterie",
+  "buttonLink": "https://lerocherdepalmer.fr/artistes/lej/10.2018.php"
+  },
+  {
+    "title": "Expositions Jeune & Rose",
+    "date": "du 1er au 31 octobre",
+    "place": "Rocher de Palmer - Cenon",
+    "description": "'Ma vie en Jeune & Rose' et 'l'expo Rose'",
+    "image": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "buttonText": "Gratuit",
+    "buttonLink": "null"
+  },
+  {
+    "title": "Ateliers musicothérapie et loisirs créatifs",
+    "date": "6 octobre à 14h",
+    "place": "Institut Bergonié - Bordeaux",
+    "description": "Ateliers musicothérapie et loisirs créatifs",
+    "image": "https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "buttonText": "Gratuit",
+    "buttonLink": "null"
+  },
+  {
+    "title": "Main Event",
+    "date": "6 octobre à partir de 18h",
+    "place": "Rocher de Palmer - Cenon",
+    "description": "Concert LEJ, expos, animations, ...",
+    "image": "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "buttonText": "S'inscrire",
+    "buttonLink": "null"
+  },
+  {
+    "title": "Projection du film documentaire 'Cancer et grossesse'",
+    "date": "17 octobre à 20h",
+    "place": "Cinéma le Zoetrope - Blaye",
+    "description": "Projection suivie d'un débat.",
+    "image": "https://images.pexels.com/photos/157724/pregnant-belly-baby-belly-months-157724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "buttonText": "Gratuit",
+    "buttonLink": "null"
+  },
+  {
+    "title": "Bienvenue au marché",
+    "date": "Matinée du 20 octobre",
+    "place": "Marché de Saint André de Cubzac",
+    "description": "Flash mob, expositions, animations de prévention et de sensibilisation",
+    "image": "https://images.pexels.com/photos/226718/pexels-photo-226718.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "buttonText": "Gratuit",
+    "buttonLink": "null"
+  },
+  {
+    "title": "Atelier de la bonne humeur",
+    "date": "28 octobre à 14h",
+    "place": "Lieu à définir",
+    "description": "Atelier de la bonne humeur. Inscription 15€ par personne.",
+    "image": "https://images.pexels.com/photos/1236678/pexels-photo-1236678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "buttonText": "S'inscrire",
+    "buttonLink": "null"
+  }
+]
