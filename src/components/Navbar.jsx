@@ -26,7 +26,7 @@ export default class NavbarTT extends React.Component {
     return (
       <div>
         <Navbar color="pink" light expand="md">
-          <NavbarBrand href="/" style={{ color: '#1b1e3e' }}>Teleteton</NavbarBrand>
+          <NavbarBrand href="/teleteton" style={{ color: '#1b1e3e' }}>Teleteton</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
