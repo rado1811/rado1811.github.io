@@ -17,7 +17,7 @@ class App extends Component {
           <Route exact path={process.env.PUBLIC_URL + '/'} component={Affiche} />
           <Route exact path={process.env.PUBLIC_URL + '/teleteton'} component={Affiche} />
           <Route path={process.env.PUBLIC_URL + '/teleteton/Events'} component={Events} />
-          <Route path={process.env.PUBLIC_URL + '/teleteton/Kesako'}component={Kesako} />
+          <Route path={process.env.PUBLIC_URL + '/teleteton/Kesako'} component={Kesako} />
           <Route path={process.env.PUBLIC_URL + '/teleteton/Support'} component={Support} />
         </Switch>
         <Footer />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import bigTeton from '../img/tetonCoeur.png';
 
 class Support extends React.Component {
@@ -23,6 +23,8 @@ class Support extends React.Component {
           <p align='justify'>
           Tu as toujours rêvé de devenir une star? Tu chantes sous la douche? <br/>
           Et bien même si tu chantes comme une casserole, tu peux réaliser ta vidéo Télététon!</p>
+        </Row>
+        <Row>
           <p align='justify'>
           Voici les paroles: <br/>
           <i>Télététon (x4)<br/>
@@ -42,8 +44,10 @@ class Support extends React.Component {
         <Row>
           <p align='justify'>
           C'est gratuit, plus nous serons nombreux à soutenir la cause, plus nous ferons entendre notre voix.</p>
+        </Row>
+        <Row>
           <p align='justify'>
-          Devenir adhérent, c'est par ici: <button><a href='http://jeuneetrose.com/#haWidget'>Adhérer</a></button></p>
+          Devenir adhérent, c'est par ici: <Button color="danger"><a href='http://jeuneetrose.com/#haWidget'>Adhérer</a></Button></p>
         </Row>      
         <Row style={{ paddingTop: '20px'}}>
           <img
