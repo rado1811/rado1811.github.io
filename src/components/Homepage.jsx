@@ -7,7 +7,7 @@ const HomePage = () => (
     <img 
       src={Affiche}
       alt="Affiche_Teleteton"
-      style={{ width: 'auto', height: '90vh'}}/>
+      style={{ width: 'auto', height: '80vh'}}/>
   </NavLink>
 );
 

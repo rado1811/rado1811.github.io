@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink } from 'reactstrap';
 import FB from '../img/Facebook.svg';
+import insta from '../img/insta.png';
 
 export default class NavbarTT extends React.Component {
   constructor(props) {
@@ -42,6 +43,9 @@ export default class NavbarTT extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="https://www.facebook.com/jeuneetrose/" target="_blank"><img src={FB} alt="logo facebook" style={{ height: '3vh' }}/></NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://www.instagram.com/" target="_blank"><img src={insta} alt="logo instagram" style={{ height: '3vh' }}/></NavLink>
               </NavItem>
             </Nav>
           </Collapse>

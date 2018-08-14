@@ -1,9 +1,14 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import bigTeton from '../img/tetonCoeur.png';
+import YouTube from 'react-youtube';
 
 class Support extends React.Component {
-  render() { 
+  render() {
+    const opts = {
+      height: '250vh',
+      width: 'auto',
+    };
     return (
       <Container>
         <Row style={{ paddingTop: '20px'}}>
@@ -33,6 +38,12 @@ class Support extends React.Component {
           Faut qu'tu tattes et qu'tu te mattes</i></p>
           <p align='justify'>
           Envoies nous ta vidéo pour que nous la diffusions sur les reséaux sociaux et surtout partage la aussi de ton côté pour sensibiliser tes amis au cancer du sein chez les jeunes femmes.</p>
+        </Row>
+        <Row>
+          <YouTube
+            videoId="ZYitvpqDa6c"
+            opts={opts}
+          />
         </Row>
         <Row style={{ paddingTop: '20px'}}>
           <img

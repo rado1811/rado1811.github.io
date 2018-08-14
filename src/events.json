@@ -18,7 +18,7 @@
     "buttonLink": "null"
   },
   {
-    "title": "Ateliers musicothérapie et loisirs créatifs",
+    "title": "Musicothérapie et loisirs créatifs",
     "date": "6 octobre à 14h",
     "place": "Institut Bergonié - Bordeaux",
     "description": "Ateliers musicothérapie et loisirs créatifs",
@@ -36,7 +36,7 @@
     "buttonLink": "null"
   },
   {
-    "title": "Projection du film documentaire 'Cancer et grossesse'",
+    "title": "Projection du film 'Cancer et grossesse'",
     "date": "17 octobre à 20h",
     "place": "Cinéma le Zoetrope - Blaye",
     "description": "Projection suivie d'un débat.",
@@ -57,9 +57,9 @@
     "title": "Atelier de la bonne humeur",
     "date": "28 octobre à 14h",
     "place": "Lieu à définir",
-    "description": "Atelier de la bonne humeur. Inscription 15€ par personne.",
+    "description": "Inscription 15€ par personne.",
     "image": "https://images.pexels.com/photos/1236678/pexels-photo-1236678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "buttonText": "S'inscrire",
-    "buttonLink": "null"
+    "buttonLink": "https://www.helloasso.com/associations/jeune-rose/evenements/atelier-de-la-bonne-humeur"
   }
 ]
