@@ -41,8 +41,8 @@
     "place": "Cinéma le Zoetrope - Blaye",
     "description": "Projection suivie d'un débat.",
     "image": "https://images.pexels.com/photos/157724/pregnant-belly-baby-belly-months-157724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "buttonText": "Gratuit",
-    "buttonLink": "null"
+    "buttonText": "Bande annonce",
+    "buttonLink": "https://www.youtube.com/watch?v=0WUvocJuUCk"
   },
   {
     "title": "Bienvenue au marché",

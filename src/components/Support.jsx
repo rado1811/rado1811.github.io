@@ -21,8 +21,16 @@ class Support extends React.Component {
         </Row>
         <Row>
           <p align='justify'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          Tu as toujours rêvé de devenir une star? Tu chantes sous la douche? <br/>
+          Et bien même si tu chantes comme une casserole, tu peux réaliser ta vidéo Télététon!</p>
+          <p align='justify'>
+          Voici les paroles: <br/>
+          <i>Télététon (x4)<br/>
+          Pour pas avoir de pépins dans tes citrons (x4)<br/>
+          Faut qu'tu tattes (x2)<br/>
+          Faut qu'tu tattes et qu'tu te mattes</i></p>
+          <p align='justify'>
+          Envoies nous ta vidéo pour que nous la diffusions sur les reséaux sociaux et surtout partage la aussi de ton côté pour sensibiliser tes amis au cancer du sein chez les jeunes femmes.</p>
         </Row>
         <Row style={{ paddingTop: '20px'}}>
           <img
@@ -33,8 +41,9 @@ class Support extends React.Component {
         </Row>
         <Row>
           <p align='justify'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          C'est gratuit, plus nous serons nombreux à soutenir la cause, plus nous ferons entendre notre voix.</p>
+          <p align='justify'>
+          Devenir adhérent, c'est par ici: <button><a href='http://jeuneetrose.com/#haWidget'>Adhérer</a></button></p>
         </Row>      
         <Row style={{ paddingTop: '20px'}}>
           <img

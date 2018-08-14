@@ -15,10 +15,10 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path={process.env.PUBLIC_URL + '/'} component={Affiche} />
-          <Route path={process.env.PUBLIC_URL + '/teleteton'} component={Affiche} />
-          <Route exact={process.env.PUBLIC_URL + '/Events'} component={Events} />
-          <Route path={process.env.PUBLIC_URL + '/Kesako'}component={Kesako} />
-          <Route path={process.env.PUBLIC_URL + '/Support'} component={Support} />
+          <Route exact path={process.env.PUBLIC_URL + '/teleteton'} component={Affiche} />
+          <Route path={process.env.PUBLIC_URL + '/teleteton/Events'} component={Events} />
+          <Route path={process.env.PUBLIC_URL + '/teleteton/Kesako'}component={Kesako} />
+          <Route path={process.env.PUBLIC_URL + '/teleteton/Support'} component={Support} />
         </Switch>
         <Footer />
       </div>
