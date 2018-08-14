@@ -18,8 +18,8 @@ const eventsSlider = () => (
 				>
 					<div className="inner">
 						<h1>{item.title}</h1>
-            <p>{item.date} - {item.place}</p>
-						<p>{item.description}</p>
+            <h5 style={{ color:'#FFFF'}}>{item.date} - {item.place}</h5>
+						<h5 style={{ color:'#FFFF'}}>{item.description}</h5>
 						<Button outline color="danger"><a href={item.buttonLink} target="_blank" rel="noopener noreferrer" style={{ color: "white"}}>{item.buttonText}</a></Button>
 					</div>
 				</div>

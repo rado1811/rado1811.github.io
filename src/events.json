@@ -3,7 +3,7 @@
   "title": "Concert L.E.J",
   "date": "Samedi 6 octobre",
   "place": "Rocher de Palmer - Cenon",
-  "description": "Concert du Sein réalisé en partenariat avec le groupe LEJ",
+  "description": "Concert du Sein en partenariat avec le groupe LEJ",
   "image": "https://france3-regions.francetvinfo.fr/paris-ile-de-france/sites/regions_france3/files/styles/top_big/public/assets/images/2018/06/30/maxnewsspecial218632-3737569.jpg?itok=PXIOe4Le",
   "buttonText": "Billeterie",
   "buttonLink": "https://lerocherdepalmer.fr/artistes/lej/10.2018.php"
@@ -15,7 +15,7 @@
     "description": "'Ma vie en Jeune & Rose' et 'l'expo Rose'",
     "image": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "buttonText": "Gratuit",
-    "buttonLink": "null"
+    "buttonLink": ""
   },
   {
     "title": "Musicothérapie et loisirs créatifs",
@@ -24,7 +24,7 @@
     "description": "Ateliers musicothérapie et loisirs créatifs",
     "image": "https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "buttonText": "Gratuit",
-    "buttonLink": "null"
+    "buttonLink": ""
   },
   {
     "title": "Main Event",
@@ -33,7 +33,7 @@
     "description": "Concert LEJ, expos, animations, ...",
     "image": "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "buttonText": "S'inscrire",
-    "buttonLink": "null"
+    "buttonLink": ""
   },
   {
     "title": "Projection du film 'Cancer et grossesse'",
@@ -51,7 +51,7 @@
     "description": "Flash mob, expositions, animations de prévention et de sensibilisation",
     "image": "https://images.pexels.com/photos/226718/pexels-photo-226718.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
     "buttonText": "Gratuit",
-    "buttonLink": "null"
+    "buttonLink": ""
   },
   {
     "title": "Atelier de la bonne humeur",
