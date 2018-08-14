@@ -7,6 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink } from 'reactstrap';
+import FB from '../img/Facebook.svg';
 
 export default class NavbarTT extends React.Component {
   constructor(props) {
@@ -26,7 +27,7 @@ export default class NavbarTT extends React.Component {
     return (
       <div>
         <Navbar color="pink" light expand="md">
-          <NavbarBrand href="/teleteton" style={{ color: '#1b1e3e' }}>Teleteton</NavbarBrand>
+          <NavbarBrand href="/teleteton" style={{ color: '#1b1e3e' }}>Télététon 2018</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -38,6 +39,9 @@ export default class NavbarTT extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="/teleteton/Support" style={{ color: '#1b1e3e' }}>Nous soutenir</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://www.facebook.com/jeuneetrose/" target="_blank"><img src={FB} alt="logo facebook" style={{ height: '3vh' }}/></NavLink>
               </NavItem>
             </Nav>
           </Collapse>

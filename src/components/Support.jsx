@@ -47,7 +47,7 @@ class Support extends React.Component {
         </Row>
         <Row>
           <p align='justify'>
-          Devenir adhérent, c'est par ici: <Button color="danger"><a href='http://jeuneetrose.com/#haWidget'>Adhérer</a></Button></p>
+          Devenir adhérent, c'est par ici: <Button color="danger"><a href='http://jeuneetrose.com/#haWidget' target="_blank" rel="noopener noreferrer">Adhérer</a></Button></p>
         </Row>      
         <Row style={{ paddingTop: '20px'}}>
           <img
