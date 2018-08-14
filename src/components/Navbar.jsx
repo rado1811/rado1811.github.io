@@ -31,13 +31,13 @@ export default class NavbarTT extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Events" style={{ color: '#1b1e3e' }}>Manifestations</NavLink>
+                <NavLink href="/teleteton/Events" style={{ color: '#1b1e3e' }}>Manifestations</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Kesako" style={{ color: '#1b1e3e' }}>Kesako?</NavLink>
+                <NavLink href="/teleteton/Kesako" style={{ color: '#1b1e3e' }}>Kesako?</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Support" style={{ color: '#1b1e3e' }}>Nous soutenir</NavLink>
+                <NavLink href="/teleteton/Support" style={{ color: '#1b1e3e' }}>Nous soutenir</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
