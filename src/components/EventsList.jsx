@@ -15,7 +15,8 @@ class EventList extends Component {
             description={event.description}
             buttonLink={event.buttonLink}
             buttonText={event.buttonText}
-            date={event.date}/>
+            date={event.date}
+            details={event.details}/>
         ))}
       </Row>
     );

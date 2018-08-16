@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Card, Button, CardHeader, CardFooter, CardBody,
-  CardTitle } from 'reactstrap';
+  CardTitle, CardText } from 'reactstrap';
 
 const EventCard = (props) => {
   return (
@@ -13,18 +13,19 @@ const EventCard = (props) => {
         <CardHeader
           style={{
             color: '#f2928f',
-            font: 'small-caps bold 16px cursive' }}>{props.title}</CardHeader>
+            font: 'small-caps bold 20px' }}>{props.title}</CardHeader>
         <CardBody>
           <CardTitle
             style={{
               color: '#f2bfac',
               font: 'italic small-caps bold 16px/2' }}>{props.description}</CardTitle>
-
-          <Button
+          <CardText
             style={{
-              color: '#FFFFFF',
-              backgroundColor: '#f2928f' }}
-          ><a href={props.buttonLink}>{props.buttonText}</a></Button>
+              color: '#f2928f',
+              font: 'small-caps 16px/2' }}>{props.details}</CardText>
+            <Button style={{ backgroundColor: '#f2928f' }}>
+            <a href={props.buttonLink} target="_blank" rel="noopener noreferrer" style={{ color: '#FFFFFF' }}>{props.buttonText}</a></Button>
+          
         </CardBody>
         <CardFooter
           style={{

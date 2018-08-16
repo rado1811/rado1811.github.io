@@ -15,9 +15,9 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Affiche} />
-          <Route path="/Events" component={Events} />
-          <Route path="/Kesako" component={Kesako} />
-          <Route path="/Support" component={Support} />
+          <Route path='/Events' component={Events} />
+          <Route path='/Kesako' component={Kesako} />
+          <Route path='/Support' component={Support} />
         </Switch>
         <Footer />
       </div>

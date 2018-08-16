@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-animated-slider';
+import { Button } from 'reactstrap';
 import 'react-animated-slider/build/horizontal.css';
 import './slider-animations.css';
 import 'normalize.css/normalize.css';
@@ -17,9 +18,9 @@ const eventsSlider = () => (
 				>
 					<div className="inner">
 						<h1>{item.title}</h1>
-            <p>{item.date} - {item.place}</p>
-						<p>{item.description}</p>
-						<button ><a href={item.buttonLink}>{item.buttonText}</a></button>
+            <h5>{item.place} - {item.date}</h5>
+						<h5>{item.description}</h5>
+						<Button outline color="danger"><a href={item.buttonLink} target="_blank" rel="noopener noreferrer" style={{ color: "white"}}>{item.buttonText}</a></Button>
 					</div>
 				</div>
 			))}

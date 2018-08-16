@@ -69,7 +69,7 @@ button:hover {
 		top: 50%;
 		transform: translateY(-50%);
 		z-index: 10;
-		background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
+		background: url('https://svgshare.com/i/41_.svg') no-repeat center center / 16px;
 		width: 32px;
 		height: 32px;
 		text-indent: -9999px;
@@ -127,7 +127,7 @@ button:hover {
   line-height: 1;
 }
 
-.slider-content .inner p {
+.slider-content .inner h5 {
   color: #FFFFFF;
   font-size: 22px;
   line-height: 1.5;
