@@ -13,7 +13,7 @@ const EventCard = (props) => {
         <CardHeader
           style={{
             color: '#f2928f',
-            font: 'small-caps bold 16px cursive' }}>{props.title}</CardHeader>
+            font: 'small-caps bold 20px' }}>{props.title}</CardHeader>
         <CardBody>
           <CardTitle
             style={{
@@ -21,7 +21,7 @@ const EventCard = (props) => {
               font: 'italic small-caps bold 16px/2' }}>{props.description}</CardTitle>
           <CardText
             style={{
-              color: '#FFFF',
+              color: '#f2928f',
               font: 'small-caps 16px/2' }}>{props.details}</CardText>
             <Button style={{ backgroundColor: '#f2928f' }}>
             <a href={props.buttonLink} target="_blank" rel="noopener noreferrer" style={{ color: '#FFFFFF' }}>{props.buttonText}</a></Button>

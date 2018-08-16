@@ -39,7 +39,7 @@ class Support extends React.Component {
           <p align='justify'>
           Envoies nous ta vidéo <a href='mailto:jeuneetrose@gmail.com'>(jeuneetrose@gmail.com)</a> pour que nous la diffusions sur les reséaux sociaux et surtout partage la aussi de ton côté pour sensibiliser tes amis au cancer du sein chez les jeunes femmes.</p>
           <p align='justify'>
-          Tu peux retrouver l'ensemble des vidéos sur <a href='https://www.youtube.com/channel/UCRAeBYOzTUsRqf-ly1ID8Aw'>notre chaîne Youtube</a></p>
+          Tu peux retrouver l'ensemble des vidéos sur <a href='https://www.youtube.com/channel/UCRAeBYOzTUsRqf-ly1ID8Aw' target="_blank" rel="noopener noreferrer">notre chaîne Youtube</a></p>
         </Row>
         <Row>
           <Col>
@@ -62,7 +62,13 @@ class Support extends React.Component {
         </Row>
         <Row>
           <p align='justify'>
-          Devenir adhérent, c'est par ici: <Button color="danger"><a style={{ color: '#FFFFFF' }} href='https://www.helloasso.com/associations/jeune-rose/adhesions/adherer-a-jeune-rose' target="_blank" rel="noopener noreferrer">Adhérer</a></Button></p>
+          Devenir adhérent, c'est par ici:
+          </p>
+        </Row>
+        <Row>
+          <Col>
+            <Button color="danger"><a style={{ color: '#FFFFFF' }} href='https://www.helloasso.com/associations/jeune-rose/adhesions/adherer-a-jeune-rose' target="_blank" rel="noopener noreferrer">Adhérer</a></Button>
+          </Col>  
         </Row>      
         <Row style={{ paddingTop: '20px'}}>
           <img
@@ -73,7 +79,13 @@ class Support extends React.Component {
         </Row>
         <Row>
           <p align='justify'>
-          Il n'y a pas de petit montant ! Tu donnes ce que tu veux et ce que tu peux ! <Button color="danger"><a style={{ color: '#FFFFFF' }} href='https://www.helloasso.com/associations/jeune-rose/adhesions/adherer-a-jeune-rose' target="_blank" rel="noopener noreferrer">Faire un don</a></Button></p>
+          Il n'y a pas de petit montant ! Tu donnes ce que tu veux et ce que tu peux ! 
+          </p>
+        </Row>
+        <Row>
+          <Col>
+            <Button color="danger"><a style={{ color: '#FFFFFF' }} href='https://www.helloasso.com/associations/jeune-rose/formulaires/1' target="_blank" rel="noopener noreferrer">Faire un don</a></Button>
+          </Col>
         </Row> 
       </Container>
     );
