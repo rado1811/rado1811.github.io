@@ -2,7 +2,7 @@
   "name": "teleteton",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rado1811.github.io/teleteton",
+  "homepage": "https://rado1811.github.io",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "normalize.css": "^8.0.0",
