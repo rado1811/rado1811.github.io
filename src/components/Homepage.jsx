@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'reactstrap';
-import Affiche from '../img/affiche.jpg';
+import Affiche from '../img/affiche.png';
 
 const HomePage = () => (
-  <NavLink href="/teleteton/#/Events" >
+  <NavLink href="/#/Events" >
     <img 
       src={Affiche}
       alt="Affiche_Teleteton"
