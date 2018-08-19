@@ -34,19 +34,19 @@ export default class NavbarTT extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/#/Events" style={{ color: '#1b1e3e' }}>Manifestations</NavLink>
+                <NavLink onClick={this.toggle} href="/#/Events" style={{ color: '#1b1e3e' }}>Manifestations</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#/Kesako" style={{ color: '#1b1e3e' }}>Kesako?</NavLink>
+                <NavLink onClick={this.toggle} href="/#/Kesako" style={{ color: '#1b1e3e' }}>Kesako?</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#/Support" style={{ color: '#1b1e3e' }}>Nous soutenir</NavLink>
+                <NavLink onClick={this.toggle} href="/#/Support" style={{ color: '#1b1e3e' }}>Nous soutenir</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.facebook.com/jeuneetrose/" target="_blank"><img src={FB} alt="logo facebook" style={{ height: '3vh' }}/></NavLink>
+                <NavLink onClick={this.toggle} href="https://www.facebook.com/jeuneetrose/" target="_blank"><img src={FB} alt="logo facebook" style={{ height: '3vh' }}/></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.instagram.com/" target="_blank"><img src={insta} alt="logo instagram" style={{ height: '3vh' }}/></NavLink>
+                <NavLink onClick={this.toggle} href="https://www.instagram.com/" target="_blank"><img src={insta} alt="logo instagram" style={{ height: '3vh' }}/></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
