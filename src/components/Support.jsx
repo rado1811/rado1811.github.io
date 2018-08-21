@@ -37,7 +37,7 @@ class Support extends React.Component {
           Faut qu'tu tattes (x2)<br/>
           Faut qu'tu tattes et qu'tu te mattes</i></p>
           <p align='justify'>
-          Envoies nous ta vidéo <a href='mailto:jeuneetrose@gmail.com'>(jeuneetrose@gmail.com)</a> pour que nous la diffusions sur les reséaux sociaux et surtout partage la aussi de ton côté pour sensibiliser tes amis au cancer du sein chez les jeunes femmes.</p>
+          Envoies nous ta vidéo (<a href='mailto:jeuneetrose@gmail.com'>jeuneetrose@gmail.com</a>) pour que nous la diffusions sur les reséaux sociaux et surtout partage la aussi de ton côté pour sensibiliser tes amis au cancer du sein chez les jeunes femmes.</p>
           <p align='justify'>
           Tu peux retrouver l'ensemble des vidéos sur <a href='https://www.youtube.com/channel/UCRAeBYOzTUsRqf-ly1ID8Aw' target="_blank" rel="noopener noreferrer">notre chaîne Youtube</a></p>
         </Row>
