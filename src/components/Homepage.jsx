@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'reactstrap';
-import Affiche from '../img/affiche.png';
+import Affiche from '../img/Bandeau_web.png';
 
 const HomePage = () => (
   <NavLink href="/#/Events" >
